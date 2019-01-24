@@ -22,5 +22,5 @@ console.log('API server started on: ' + port);
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-var routes = require('./app/routes/appRoutes'); //importing route
+var routes = require('https://trackingvent.000webhostapp.com/vent/appRoutes.js'); //importing route
 routes(app); //register the route
