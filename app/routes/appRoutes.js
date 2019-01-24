@@ -1,6 +1,6 @@
 'use strict';
 module.exports = function(app) {
-  var todoList = require('https://trackingvent.000webhostapp.com/vent/appController.js');
+  var todoList = require('../model/appController.js');
 
   // todoList Routes
   app.route('/customer')
