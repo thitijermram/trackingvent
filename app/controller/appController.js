@@ -1,6 +1,6 @@
 'use strict';
 
-var Customer = require('https://trackingvent.000webhostapp.com/vent/appModel.js');
+var Customer = require('../model/appModel.js');
 
 exports.list_all_customer = function(req, res) {
   Customer.getAllCustomer(function(err, customer) {
