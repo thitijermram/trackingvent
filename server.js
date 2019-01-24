@@ -7,9 +7,9 @@ const mysql = require('mysql');
 // connection configurations
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'ventilator'
+    user: 'id7769008_thiti7600',
+    password: 'dew8433',
+    database: 'id7769008_trackingventilator'
 });
  
 // connect to database
