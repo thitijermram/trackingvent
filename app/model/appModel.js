@@ -1,5 +1,5 @@
 'user strict';
-var sql = require('https://trackingvent.000webhostapp.com/vent/db.js');
+var sql = require('./db.js');
 
 //Customer object constructor
 var Customer = function(customer){
