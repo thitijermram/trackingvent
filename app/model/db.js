@@ -10,8 +10,6 @@ var connection = mysql.createConnection({
     database : 'id7769008_trackingventilator'
 });
 
-connection.connect(function(err) {
-    if (err) throw err;
-});
+connection.connect();
 
 module.exports = connection;
